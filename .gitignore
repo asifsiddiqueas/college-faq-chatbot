@@ -1,0 +1,17 @@
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,253 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening", "Anyone there?"],
+      "responses": [
+        "Hello! Welcome to the college helpdesk. What do you want to know?",
+        "Hi! Ask me about courses, fees, timings, admission, credits or campus facilities."
+      ]
+    },
+    {
+      "tag": "administration_info",
+      "patterns": ["About administration", "Admin office", "Admin office timings", "Where is the admin office?"],
+      "responses": [
+        "The admin office handles admissions, fees, documents, mark sheets and certificates. It is in the main building near the entrance. Timings: 10 AM to 1 PM for the morning batch and 1 PM to 4 PM for the evening batch (Mon to Fri)."
+      ]
+    },
+    {
+      "tag": "nep_2020_ugcf_2022_overview",
+      "patterns": ["What is NEP?", "What is UGCF?", "What is NEP 2020?", "Explain NEP structure", "How many credits in a degree?"],
+      "responses": [
+        "Under DU's UGCF 2022 (NEP 2020), the degree is 4 years (8 semesters). You take 22 credits per semester, so 44 per year and 176 in total for the 4 year degree."
+      ]
+    },
+    {
+      "tag": "multiple_entry_exit_scheme",
+      "patterns": ["What is multiple entry and exit?", "Can I leave after 1st year?", "Can I leave after 2nd year?", "Exit options in NEP"],
+      "responses": [
+        "Yes. You can exit after 1 year with a Certificate, after 2 years with a Diploma, after 3 years with a Bachelor's degree, or finish all 4 years for Honours (with Research if eligible)."
+      ]
+    },
+    {
+      "tag": "ug_certificate_exit_rules",
+      "patterns": ["How to get a certificate after 1st year?", "Exit after semester 2", "Is internship needed for certificate?", "UG certificate rules"],
+      "responses": [
+        "For a UG Certificate after year 1, you need 44 credits from semester 1 and 2, plus a 4 credit internship or vocational course in the summer break."
+      ]
+    },
+    {
+      "tag": "ug_diploma_exit_rules",
+      "patterns": ["How to get a diploma after 2nd year?", "Exit after semester 4", "Can I get a diploma if I leave after 2 years?", "UG diploma rules"],
+      "responses": [
+        "For a UG Diploma after year 2, you need 88 credits from semesters 1 to 4, plus a 4 credit summer internship or project after semester 4."
+      ]
+    },
+    {
+      "tag": "fourth_year_honours_with_research",
+      "patterns": ["Is 4th year compulsory?", "What is Honours with Research?", "Who can do research in 4th year?", "Dissertation eligibility", "3 year vs 4 year degree"],
+      "responses": [
+        "The 4th year is optional. If your CGPA is 7.5 or more in the first 6 semesters, you can choose Honours with Research and do a 12 credit dissertation in semesters 7 and 8.",
+        "3 years (132 credits) gives a Bachelor's degree. 4 years (176 credits) gives Honours, or Honours with Research if you have 7.5 CGPA and complete the dissertation."
+      ]
+    },
+    {
+      "tag": "academic_bank_of_credits_abc_id",
+      "patterns": ["What is ABC ID?", "How to make ABC ID?", "Is ABC ID compulsory?", "DigiLocker ABC ID", "Where are my credits stored?"],
+      "responses": [
+        "ABC ID is the Academic Bank of Credits ID. It is compulsory. You make it on abc.gov.in or DigiLocker using your Aadhaar, and all your credits get stored there. Also submit it on the Samarth portal."
+      ]
+    },
+    {
+      "tag": "reentry_rules_and_credit_validity",
+      "patterns": ["Can I rejoin after exiting?", "How long are credits valid?", "Maximum time to finish degree", "Re-entry rules"],
+      "responses": [
+        "Your credits stay valid for 7 years. If you exit with a Certificate or Diploma, you can rejoin within 3 years, but the whole degree must be done within 7 years."
+      ]
+    },
+    {
+      "tag": "course_categories_dsc_dse_ge",
+      "patterns": ["What is DSC?", "What is DSE?", "What is GE?", "DSC DSE GE full form", "How many DSC papers per semester?"],
+      "responses": [
+        "DSC = Discipline Specific Core (main subject papers, 4 credits each). DSE = Discipline Specific Elective (optional papers from your main subject, 4 credits). GE = Generic Elective (a paper from another subject, 4 credits).",
+        "In semesters 1 and 2, Honours students usually take 3 DSC and 1 GE, along with AEC, SEC and VAC."
+      ]
+    },
+    {
+      "tag": "minor_degree_requirements",
+      "patterns": ["How to get a minor?", "Minor degree in DU", "How many GE papers for a minor?", "Can I get a minor with Honours?"],
+      "responses": [
+        "To get a Minor, you need to pass 7 GE papers (28 credits) from the same subject, for example Economics or Computer Science."
+      ]
+    },
+    {
+      "tag": "ability_enhancement_courses_aec",
+      "patterns": ["What is AEC?", "AEC subjects", "Is EVS compulsory?", "Is Hindi compulsory in AEC?"],
+      "responses": [
+        "AEC (Ability Enhancement Course) is a 2 credit paper on language and environment. Options are Environmental Science (EVS) and languages like Hindi, English, Sanskrit and Urdu. You take it in the first 4 semesters."
+      ]
+    },
+    {
+      "tag": "skill_enhancement_courses_sec",
+      "patterns": ["What is SEC?", "SEC subjects", "SEC examples", "Does SEC have practicals?"],
+      "responses": [
+        "SEC (Skill Enhancement Course) is a 2 credit practical paper. Examples: Digital Marketing, Creative Writing, Python, Data Analysis and Financial Literacy. It is marked through practicals and projects."
+      ]
+    },
+    {
+      "tag": "value_addition_courses_vac",
+      "patterns": ["What is VAC?", "VAC subjects", "VAC examples", "Difference between SEC and VAC"],
+      "responses": [
+        "VAC (Value Addition Course) is a 2 credit paper on values, ethics and culture. Examples: Constitutional Values, Yoga, Ethics and Swachh Bharat. SEC is for job skills, VAC is for personal growth."
+      ]
+    },
+    {
+      "tag": "internship_and_fieldwork",
+      "patterns": ["Is internship compulsory?", "What is IAPC?", "Credits for NSS or projects", "Community outreach credits"],
+      "responses": [
+        "Internship is not compulsory, except the summer one if you want a Certificate or Diploma. In semesters 3 to 6 you can take IAPC (Internship, Apprenticeship, Project, Community Outreach) for 2 credits. NSS, Enactus, internships and projects can count."
+      ]
+    },
+    {
+      "tag": "promotion_and_passing_criteria",
+      "patterns": ["Passing marks", "Promotion rules", "How many papers to pass for next year?", "What if I fail a paper?", "Minimum marks to pass"],
+      "responses": [
+        "You need at least 40% to pass a paper. To move to the next year, you must pass at least 50% of the papers of the previous semesters."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": ["Fees", "College fees", "What are the fees?", "Annual fees", "Fee structure", "How much is B.Com fee?", "How much is admission fee?"],
+      "responses": [
+        "Fees for years 1 to 3 are around Rs 15,000 to Rs 22,000 per year (science is a bit more because of labs). The 4th year is around Rs 28,000 to Rs 35,000."
+      ]
+    },
+    {
+      "tag": "fourth_year_fees_reason",
+      "patterns": ["Why is 4th year fee high?", "Why 31000 for 4th year?", "4th year fee breakdown", "Why is 4th year costly?"],
+      "responses": [
+        "The 4th year fee (around Rs 31,000) covers university development fund, lab and software costs, e-journals and research database access, and dissertation guidance and evaluation."
+      ]
+    },
+    {
+      "tag": "payment_modes_and_portal",
+      "patterns": ["How to pay fees?", "Online fee payment", "Fee payment portal", "Can I pay fees in installments?", "Download fee receipt"],
+      "responses": [
+        "Pay online on the college payment portal or the DU Samarth/CSAS portal using UPI, net banking or card. Log in with your roll number or enrollment ID. You can download the receipt right after paying."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": ["Courses", "What courses are available?", "Which courses does the college offer?", "Is B.Sc available?", "Is B.Com available?", "B.A. Hons subjects"],
+      "responses": [
+        "We offer B.A. (Hons) in Economics, English, Hindi, History and Political Science, B.A. Programme, B.Com and B.Com (Hons), B.Sc. (Hons) Mathematics, and B.Sc. Physical Science with Chemistry, Computer Science or Electronics.",
+        "All courses are 3 year degree or 4 year Honours under NEP."
+      ]
+    },
+    {
+      "tag": "addon_certificate_courses",
+      "patterns": ["Add-on courses", "Certificate courses", "Can I learn German or French?", "Foreign language course", "Short term courses"],
+      "responses": [
+        "Yes. We have short courses in German, French and Spanish, and skill courses in stock market, data analytics and digital marketing. Classes are after regular college hours."
+      ]
+    },
+    {
+      "tag": "college_shifts_and_timings",
+      "patterns": ["Timings", "College timings", "Shift timings", "Morning shift timing", "Evening shift timing", "When does college start?", "What time do classes start?"],
+      "responses": [
+        "Morning shift: 8:30 AM to 4:30 PM. Evening shift: 2:00 PM to 7:30 PM. Monday to Friday."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["Admission", "How to take admission?", "Admission process", "How do I apply?", "CUET admission", "CSAS portal", "Cutoff"],
+      "responses": [
+        "Admission is only through CUET-UG scores on DU's CSAS portal (ugadmission.uod.ac.in). Register there, fill your preferences with our college and course, and wait for the seat allocation rounds."
+      ]
+    },
+    {
+      "tag": "scholarships_and_financial_aid",
+      "patterns": ["Scholarship", "Is there any scholarship?", "Fee waiver", "Financial help", "Student Aid Fund"],
+      "responses": [
+        "Yes. The college has a Fee Concession Committee and Student Aid Fund for students who need help. You can also apply for DU's Financial Support Scheme and government scholarships (SC/ST/OBC). Ask at the admin office."
+      ]
+    },
+    {
+      "tag": "exam_schedule_and_pattern",
+      "patterns": ["When are exams?", "Exam date sheet", "Semester exam dates", "Exam schedule"],
+      "responses": [
+        "Odd semester exams (1, 3, 5, 7) are in November-December. Even semester exams (2, 4, 6, 8) are in May-June. The date sheet comes from DU about 3 to 4 weeks before and is put on the notice board and website."
+      ]
+    },
+    {
+      "tag": "grading_and_evaluation_cgpa",
+      "patterns": ["Grading system", "How is CGPA calculated?", "CGPA to percentage", "Internal marks", "Internal assessment weightage"],
+      "responses": [
+        "Grading is on a 10 point CGPA scale. Internal marks are 30 to 40% and the semester exam is 60 to 70%. Percentage = CGPA x 10."
+      ]
+    },
+    {
+      "tag": "library_facilities",
+      "patterns": ["Library", "Library timings", "Is there a library?", "How many books can I issue?", "Library e-resources"],
+      "responses": [
+        "The library is computerized and air-conditioned, with online e-resources (INFLIBNET N-LIST and DU E-Library). Timings: 8:30 AM to 5:00 PM on working days. Use your ID card to issue books."
+      ]
+    },
+    {
+      "tag": "campus_facilities_and_environment",
+      "patterns": ["Campus facilities", "Is Wi-Fi available?", "Computer lab", "Is the campus green?", "Smart classrooms"],
+      "responses": [
+        "The campus has Wi-Fi, computer labs, a media lab, science labs and smart classrooms. It is also eco-friendly with solar panels, rainwater harvesting and a sewage treatment plant."
+      ]
+    },
+    {
+      "tag": "canteen_and_food",
+      "patterns": ["Canteen", "How is the canteen?", "Food in college", "Is there a Nescafe?", "Canteen prices"],
+      "responses": [
+        "The canteen has cheap and hygienic food, snacks and drinks. There is also a Nescafe kiosk on campus."
+      ]
+    },
+    {
+      "tag": "sports_and_fitness",
+      "patterns": ["Sports", "Sports facilities", "Is there a gym?", "Cricket ground", "Sports teams"],
+      "responses": [
+        "We have a cricket pitch, hockey ground, volleyball and badminton courts, a table tennis room and a gym. Teams play in cricket, hockey, volleyball, athletics, chess and archery in DU tournaments."
+      ]
+    },
+    {
+      "tag": "hostel_and_accommodation",
+      "patterns": ["Hostel", "Is there a hostel?", "Where can outstation students stay?", "PG near college", "Accommodation"],
+      "responses": [
+        "There is no hostel in the college. But PGs and rented flats are easy to find nearby in Shahdara, Laxmi Nagar and Vijay Nagar, with metro connectivity."
+      ]
+    },
+    {
+      "tag": "placement_cell_and_internships",
+      "patterns": ["Placements", "Placement cell", "Which companies come for placement?", "Average package", "Internship opportunities"],
+      "responses": [
+        "The Training and Placement Cell runs placement drives, resume workshops and internship fairs. Companies like ICICI Bank, Wipro, Concentrix, Deloitte, KPMG and Genpact visit. Average package is around Rs 3.5 to 6 LPA."
+      ]
+    },
+    {
+      "tag": "societies_and_activities",
+      "patterns": ["Societies", "Clubs in college", "Is there NCC or NSS?", "Cultural societies", "Enactus", "Rotaract"],
+      "responses": [
+        "We have NCC, NSS, Enactus, Rotaract, Entrepreneurship Cell, Theatre, Music and Dance, Fine Arts and Debating societies, plus an annual cultural fest."
+      ]
+    },
+    {
+      "tag": "location_and_nearest_metro",
+      "patterns": ["Where is the college?", "College location", "Nearest metro", "How to reach college?", "Welcome metro station"],
+      "responses": [
+        "The college is in East Delhi. The nearest metro is Welcome (Red and Pink Line), a short walk away. DTC buses also stop near the college gate."
+      ]
+    },
+    {
+      "tag": "contact_helpdesk",
+      "patterns": ["Contact", "How to contact the college?", "College phone number", "College email", "Helpdesk"],
+      "responses": [
+        "Visit the Administration Block near the main entrance (9 AM to 5 PM, Mon to Fri), Counter 1 to 4. For official queries you can also use the student support desk on the university portal."
+      ]
+    }
+  ]
+}
