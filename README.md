@@ -52,7 +52,7 @@ All the knowledge of bot is in `backend/data/intents.json`. Each entry looks lik
 ---
 
 ## Note for my Group partner Mayank (adding patterns)
-1. **Think like a student** Add short phrases people actually type, like "Fees".
+1. **Think like a student** Add short phrases people actually type, like "Fees"...
 2. **No duplicates** Don't put the same pattern under two different tags.
 3. **Be specific** Add patterns for each topic so the bot can tell them apart.
 4. **Low accuracy** Try adjusting the match threshold, filler words and synonyms in the backend config.
